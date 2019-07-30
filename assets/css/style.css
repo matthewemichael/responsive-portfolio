@@ -265,3 +265,61 @@ input[type=submit] {
   border: 0 none;
   margin-left: 40px;
 }
+
+@media screen and (max-width: 640px) {
+  
+  body { 
+    position: static;
+    max-width: 640px;
+   }
+
+   .container {
+    position: static;
+    width: 100%;
+    margin: 0;
+   }
+
+   #logo {
+    position: static;
+    width: 100%;
+    margin: 0;
+  }
+
+  nav {
+    position: static;
+    width: 100%;
+    margin-top: 10px; 
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  nav a {
+    padding: 0px 40px;
+  }
+
+  .main-section {
+    float: none;
+    background: #ffffff;
+    position: static;
+    text-align: center;
+    max-width: 600px;
+    margin: 35px auto;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+
+  .auth-image {
+    position: static;
+    width: 100%;
+    margin-bottom: 35px;
+  }
+
+  .work {
+    width: 100%;
+  }
+
+  footer {
+    width: 100%;
+  }
+  
+}
