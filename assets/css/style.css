@@ -297,13 +297,11 @@ input[type=submit] {
     padding: 0px 40px;
   }
 
-  /* Main section does not contain portfolio images at 640px for some reason */
+  
   .main-section {
-    float: none;
-    background: #ffffff;
     text-align: center;
     max-width: 600px;
-    margin: 35px auto;
+    margin: 35px 5% 35px 5%;
     text-align: justify;
     text-justify: inter-word;
   }
@@ -354,4 +352,20 @@ input[type=submit] {
     width: 100%;
   }
 
+}
+
+@media screen and (max-width: 980px) and (min-width:769px) {
+
+  .main-section {
+    max-width: 685px;
+    margin-left: 5%;
+  }
+
+  #logo {
+    margin-left: 5%;
+  }
+
+  nav {
+    margin-right: 5%;
+  }
 }
